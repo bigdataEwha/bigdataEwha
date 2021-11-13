@@ -11,7 +11,15 @@
 
 ---------------------------------------
 
-https://GitHub.com 은 버전 관리를 위한 Git 서버지만, 무료 웹호스팅 기능(https://pages.github.com/) 이 있음. 
-* GitHub Pages를 이용하여 운영하는 홈페이지는 GitHubID.github.io 형태의 url 이 생성되는데, 추후 domain을 구입/취득하여 교체할 수 있다.
-
-예: https://fraser-lab.github.io -> https://fraserlab.com
+GIT DICTIONARY
+==============
+Commit : 추가/수정/삭제 된 폴더/파일 등을 내 로컬 컴퓨터에 기록한다. 
+Push : 내 로컬 컴퓨터에 저장되어 있던 버전 정보를 Git 저장소 서버로 업로드 한다. 
+Branch : 버전들을 묶어서 Branch로 명칭한다. 크게 로컬 Branch/ 원격 Branch로 구분한다. 
+Tag : 특정 버전 위치에 대해 나중에 쉽게 찾아갈 수 있도록 이름을 지정해 놓은 것(책갈피 기능) 
+Cherry Pick : 다른 브랜치의 특정 커밋을 현재 브랜치에 병합 
+Merge : 서로 다른 Branch를 병합하는 과정 
+Rebase : Git 과거 이력을 편집 목적으로 정리 해줌 
+Pull : 원격 저장소의 최신 버전을 가져와 로컬 저장소에 자동으로 Merge 한다. 
+Fetch : 원격 저장소의 최신 커밋을 가져오지만 로컬 저장소에 Merge 하지는 않는다. 
+Clone : 원격 저장소를 특정 이름으로 복제하여 가져온
